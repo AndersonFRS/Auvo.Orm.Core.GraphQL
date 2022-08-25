@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auvo.Orm.Core.GraphQL", "Auvo.Orm.Core.GraphQL\Auvo.Orm.Core.GraphQL.csproj", "{B27A4350-5AA2-4612-BCD4-1DBD7671C1C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auvo.Orm.Core.GraphQL.WebApi", "Auvo.Orm.Core.GraphQL\Auvo.Orm.Core.GraphQL.WebApi.csproj", "{B27A4350-5AA2-4612-BCD4-1DBD7671C1C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auvo.Orm.Core.GraphQL.Consumer", "Auvo.Orm.Core.Consumer\Auvo.Orm.Core.GraphQL.Consumer.csproj", "{97F4F38C-8D82-41E2-9B34-856C24ADB966}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Api", "1-Api", "{37014839-3EE4-4606-953A-193D2BC7EE76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Consumer", "2-Consumer", "{FE1F02CC-F5AB-4923-A6E1-6CD0F7C0BC93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Core", "3-Core", "{9A42D850-4F4B-4B6A-8D99-E97C70635AC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Test", "4-Test", "{2FCADFD6-A2C3-448D-BAE3-D5A35F898C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auvo.Orm.Core.GraphQl.Core", "Auvo.Orm.Core.GraphQl.Core\Auvo.Orm.Core.GraphQl.Core.csproj", "{BE9E2466-489B-4C92-BF13-0FCB95C3D604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auvo.Orm.Core.GraphQl.Test", "Auvo.Orm.Core.GraphQl.Test\Auvo.Orm.Core.GraphQl.Test.csproj", "{731A9155-117F-4B8E-80E6-1FF7A14E64B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +29,27 @@ Global
 		{B27A4350-5AA2-4612-BCD4-1DBD7671C1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B27A4350-5AA2-4612-BCD4-1DBD7671C1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B27A4350-5AA2-4612-BCD4-1DBD7671C1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F4F38C-8D82-41E2-9B34-856C24ADB966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F4F38C-8D82-41E2-9B34-856C24ADB966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F4F38C-8D82-41E2-9B34-856C24ADB966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F4F38C-8D82-41E2-9B34-856C24ADB966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9E2466-489B-4C92-BF13-0FCB95C3D604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9E2466-489B-4C92-BF13-0FCB95C3D604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9E2466-489B-4C92-BF13-0FCB95C3D604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9E2466-489B-4C92-BF13-0FCB95C3D604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731A9155-117F-4B8E-80E6-1FF7A14E64B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731A9155-117F-4B8E-80E6-1FF7A14E64B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731A9155-117F-4B8E-80E6-1FF7A14E64B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731A9155-117F-4B8E-80E6-1FF7A14E64B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B27A4350-5AA2-4612-BCD4-1DBD7671C1C7} = {37014839-3EE4-4606-953A-193D2BC7EE76}
+		{97F4F38C-8D82-41E2-9B34-856C24ADB966} = {FE1F02CC-F5AB-4923-A6E1-6CD0F7C0BC93}
+		{BE9E2466-489B-4C92-BF13-0FCB95C3D604} = {9A42D850-4F4B-4B6A-8D99-E97C70635AC3}
+		{731A9155-117F-4B8E-80E6-1FF7A14E64B9} = {2FCADFD6-A2C3-448D-BAE3-D5A35F898C7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FAF3F8FC-3B63-41CB-AAE2-15432504208C}
