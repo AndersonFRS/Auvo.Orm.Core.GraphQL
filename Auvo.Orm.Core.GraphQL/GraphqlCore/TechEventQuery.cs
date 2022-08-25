@@ -1,7 +1,6 @@
 ﻿using Auvo.Orm.Core.GraphQL.WebApi.Infrastructure.ITechEventRepository;
 using GraphQL;
 using GraphQL.Types;
-using System.Xml.Linq;
 
 namespace Auvo.Orm.Core.GraphQL.WebApi.GraphqlCore
 {
